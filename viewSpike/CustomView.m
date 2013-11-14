@@ -30,7 +30,7 @@
 }
 
 - (void)pushBtn:(id)sender{
-    self.buttonPressedBlock(3);
+    self.buttonPressedBlock();
 }
 
 @end

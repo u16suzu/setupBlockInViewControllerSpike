@@ -10,6 +10,5 @@
 typedef void(^MyCustomBlockType)(void);
 
 @interface CustomView : UIView
-@property (nonatomic, copy) MyCustomBlockType block;
-@property (nonatomic, copy) void (^buttonPressedBlock)(int arg); // when use typedef
+@property (nonatomic, copy) MyCustomBlockType buttonPressedBlock;
 @end
